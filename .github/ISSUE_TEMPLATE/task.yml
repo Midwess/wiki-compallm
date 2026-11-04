@@ -1,0 +1,42 @@
+{
+  "name": "Task",
+  "description": "Track a concrete piece of work",
+  "labels": [
+    "type:task"
+  ],
+  "body": [
+    {
+      "type": "textarea",
+      "id": "outcome",
+      "attributes": {
+        "label": "Outcome",
+        "description": "Describe the result of this task."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "specification",
+      "attributes": {
+        "label": "Specification and parent feature",
+        "description": "Link the specification and parent issue, if applicable."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "acceptance",
+      "attributes": {
+        "label": "Acceptance criteria",
+        "description": "How will we verify completion?"
+      },
+      "validations": {
+        "required": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Decision",
+  "description": "Resolve a business or architectural question",
+  "labels": [
+    "type:decision"
+  ],
+  "body": [
+    {
+      "type": "textarea",
+      "id": "question",
+      "attributes": {
+        "label": "Decision needed",
+        "description": "State the question and why it blocks progress."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "context",
+      "attributes": {
+        "label": "Context and specification",
+        "description": "Link relevant documents and dependent work."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "options",
+      "attributes": {
+        "label": "Options and recommendation",
+        "description": "Explain practical options and known tradeoffs."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "acceptance",
+      "attributes": {
+        "label": "Completion criteria",
+        "description": "Identify the answer needed and the ADR to update."
+      },
+      "validations": {
+        "required": true
+      }
+    }
+  ]
+}

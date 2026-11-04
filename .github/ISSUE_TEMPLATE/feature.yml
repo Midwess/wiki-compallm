@@ -1,0 +1,53 @@
+{
+  "name": "Feature",
+  "description": "Define a product outcome and its acceptance criteria",
+  "labels": [
+    "type:feature"
+  ],
+  "body": [
+    {
+      "type": "textarea",
+      "id": "outcome",
+      "attributes": {
+        "label": "Outcome",
+        "description": "What should users be able to do?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "specification",
+      "attributes": {
+        "label": "Specification",
+        "description": "Link the relevant ADR and focused pages."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "acceptance",
+      "attributes": {
+        "label": "Acceptance criteria",
+        "description": "List observable completion criteria."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "scope",
+      "attributes": {
+        "label": "Scope and open questions",
+        "description": "Identify exclusions, dependencies, and unresolved requirements."
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

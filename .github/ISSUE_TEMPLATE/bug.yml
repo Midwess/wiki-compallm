@@ -1,0 +1,53 @@
+{
+  "name": "Bug report",
+  "description": "Report incorrect application behavior",
+  "labels": [
+    "type:bug"
+  ],
+  "body": [
+    {
+      "type": "textarea",
+      "id": "actual",
+      "attributes": {
+        "label": "Actual behavior",
+        "description": "What happened?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "expected",
+      "attributes": {
+        "label": "Expected behavior",
+        "description": "What should have happened?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "reproduce",
+      "attributes": {
+        "label": "Reproduction steps",
+        "description": "Include relevant environment and version; omit credentials."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "evidence",
+      "attributes": {
+        "label": "Evidence",
+        "description": "Provide safe logs or links, if available."
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}
