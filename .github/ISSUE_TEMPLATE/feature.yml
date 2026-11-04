@@ -49,5 +49,8 @@
         "required": false
       }
     }
+  ],
+  "projects": [
+    "Midwess/7"
   ]
 }

@@ -14,7 +14,7 @@ This repository owns product documentation, architecture decisions, and product 
 
 ## Work tracking
 
-Create features, tasks, bugs, and actionable decisions in [Issues](https://github.com/Midwess/wiki-compallm/issues/new/choose). Use Discussions for open-ended exploration. The Compallm Project linked from this repository’s homepage is the shared dashboard.
+Create features, tasks, bugs, and actionable decisions in [Issues](https://github.com/Midwess/wiki-compallm/issues/new/choose). Use Discussions for open-ended exploration. The [Compallm Project](https://github.com/orgs/Midwess/projects/7) is the shared dashboard. Issue forms add new issues to it when the author has Project write access.
 
 Feature issues describe outcomes and link to specifications. Break implementation into sub-issues. Keep acceptance criteria and delivery updates in issues; maintain the accepted solution and unresolved business rules in the relevant feature ADR.
 

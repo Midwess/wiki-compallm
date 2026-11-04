@@ -16,7 +16,7 @@ Use Discussions for open-ended questions. Once a discussion produces actionable 
 
 ## Project fields
 
-The Compallm Project displays the same issues as this repository. Status belongs in the Project; labels classify work rather than duplicating status. Priority is P0 (urgent), P1 (high), P2 (normal), or P3 (low). Feature identifies the product area. Only assign target dates when agreed.
+The [Compallm Project](https://github.com/orgs/Midwess/projects/7) displays the same issues as this repository. Issue forms automatically select this Project when the author has write access to it. Issues created through other paths must be added through the Project selector until repository-wide auto-add is configured. Status belongs in the Project; labels classify work rather than duplicating status. Priority is P0 (urgent), P1 (high), P2 (normal), or P3 (low). Feature identifies the product area. Only assign target dates when agreed.
 
 Move work through Backlog, Ready, In progress, In review, and Done. Use Needs decision for work awaiting a business or architectural answer. A feature is complete only when its acceptance criteria are met, not merely when one sub-issue is closed.
 
